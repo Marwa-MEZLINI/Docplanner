@@ -1,0 +1,37 @@
+.header {
+    width: 90vw;
+    height: 5rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    
+    img {
+        width: 268px;
+        height: 33px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: baseline;
+    }
+
+    li {
+        margin-left: 3rem;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #00b39b;
+        font-size: 0.9357rem;
+        font-weight: 400;
+        line-height: 2em;
+        padding: 1.33em 0;
+    }
+}

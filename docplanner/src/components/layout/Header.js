@@ -1,6 +1,6 @@
-import {classes} from MainNavigation.modules.scss
+import classes from './Header.module.scss'
 
-function MainNavigation() {
+function Header() {
     return (
         <header className={classes.header} >
             <div className={classes.logo} >
@@ -23,4 +23,4 @@ function MainNavigation() {
     )
 }
 
-export default MainNavigation;
+export default Header;

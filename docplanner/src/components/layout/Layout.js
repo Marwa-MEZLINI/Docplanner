@@ -1,10 +1,10 @@
 import Footer from "./Footer";
-import MainNavigation from "./MainNavigation";
+import Header from "./Header";
 
 function Layout(props) {
     return (
         <div>
-            <MainNavigation />
+            <Header />
             <main>
                 {props.children}
             </main>
