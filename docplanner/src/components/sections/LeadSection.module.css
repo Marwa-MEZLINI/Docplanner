@@ -22,6 +22,7 @@
     text-align: center;
     letter-spacing: -.3px;
     line-height: 1.3;
+    font-weight: 400;
 }
 
 .title::selection {
@@ -36,20 +37,20 @@
     width: 889px;
     height: 185.59px;
     display: flex;
-    flex-flow: column wrap;
-}
-
-.text p {
-    width: 50%;
-    padding: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #747474;
-    line-height: 1.3;
+    flex-direction: row;
 }
 
 .text p::selection {
     background-color: #00b39b;
     color: #ffffff;
     text-shadow: none;
+}
+
+.content {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #747474;
+    line-height: 1.3;
 }

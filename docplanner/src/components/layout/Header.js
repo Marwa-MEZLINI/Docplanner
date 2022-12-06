@@ -9,13 +9,13 @@ function Header() {
             <nav>
                 <ul>
                     <li>
-                        <a href="#" >About us</a>
+                        <a href="#" style={{ color: '#00b39b' }} >About us</a>
                     </li>
                     <li>
-                        <a href="#" >Career</a>
+                        <a href="#" style={{ color: '#747474' }} >Career</a>
                     </li>
                     <li>
-                        <a href="#" >Departments</a>
+                        <a href="#" style={{ color: '#747474' }} >Departments</a>
                     </li>
                 </ul>
             </nav>
