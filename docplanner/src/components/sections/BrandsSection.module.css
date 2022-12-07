@@ -1,0 +1,57 @@
+.brandsSection {
+    margin: 2.5rem auto 3.125rem;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.25em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-weight: 300;
+}
+
+.brands {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0;
+    width: 67%;
+    margin: 0;
+    padding: 0;
+}
+
+.brand {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: auto;
+}
+
+.brand a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.logo {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.logo:not(:root) {
+    overflow: hidden;
+}
+
+.logo path {
+    transition: all .2s ease 0s;
+    fill: hsla(0.0%, 67%, .7);
+}
