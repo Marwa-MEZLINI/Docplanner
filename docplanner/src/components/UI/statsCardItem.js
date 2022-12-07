@@ -1,4 +1,4 @@
-import classes from './statsCardItem.css';
+import classes from './StatsCardItem.module.css';
 import Card from "./Card";
 
 function StatsCardItem(props) {
