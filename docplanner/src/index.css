@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #747474;
+
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+::selection {
+    background-color: #00b39b;
+    color: #ffffff;
+    text-shadow: none;
+}
