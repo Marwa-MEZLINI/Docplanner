@@ -1,3 +1,6 @@
+import OfficesCardList from "../UI/OfficesCardList";
+
+
 function OfficesSection() {
     return (
         <section>
@@ -10,7 +13,7 @@ function OfficesSection() {
                 </p>
             </div>
             <div>
-                
+                <OfficesCardList />
             </div>
         </section>
     )

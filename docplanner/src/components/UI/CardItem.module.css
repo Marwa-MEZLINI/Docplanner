@@ -27,12 +27,12 @@ h3 {
     color: #ffffff;
 }
 
-.link a {
+.select a {
     justify-self: flex-end;
     padding-bottom: 20px;
 }
 
-.link a {
+.select a {
     color: #ffffff;
     font-size: 1.3rem;
 

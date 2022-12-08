@@ -1,5 +1,6 @@
 import classes from './CardItem.module.css'
 import Card from "./Card";
+import Select from './Select';
 
 function CardItem(props) {
     return (
@@ -16,8 +17,8 @@ function CardItem(props) {
                         <p>{props.text}</p>
                     </div>
                 </div>
-                <div className={classes.link}>
-                    <a href='#' >{props.drop}</a>
+                <div className={classes.select}>
+                    <Select />
                 </div>
             </Card>
         </li>
