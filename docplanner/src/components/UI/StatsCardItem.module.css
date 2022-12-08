@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 25px 10px;
+    font-size: .8125em;
+    width: 228px;
+    margin: 10px 10px;
+}
+
+.stat {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.description {
+    text-align: center;
+    font-size: .8125em;
+    font-weight: 400;
+}

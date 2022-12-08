@@ -10,7 +10,9 @@ function StatsCardItem(props) {
                     <p className={classes.stat} >
                         {props.stat}
                     </p>
-                    <p className={classes.description} ></p>
+                    <p className={classes.description} >
+                        {props.description}
+                    </p>
                 </div>
             </Card>
         </li>
