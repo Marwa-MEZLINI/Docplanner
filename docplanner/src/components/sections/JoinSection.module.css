@@ -1,0 +1,34 @@
+.join {
+    margin: 5rem 25rem;
+    zoom: 1;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin: 0 0 0.75em 0;
+    font-weight: 300;
+}
+
+.join button {
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background-color: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: .75rem;
+    text-align: center;
+    transition: all .2s ease 0s;
+}
+
+.join button:hover {
+    background-color: #1662c6;
+}
