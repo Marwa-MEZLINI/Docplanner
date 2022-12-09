@@ -1,11 +1,12 @@
 import Card from "./Card";
+import classes from './OfficesCardItem.module.css'
 
 function OfficesCardItem(props) {
     return (
-        <li>
+        <li className={classes.item} >
             <Card>
                 <img src={props.image} />
-                <div>
+                <div className={classes.content} >
                     <p>
                         {props.country}
                     </p>
