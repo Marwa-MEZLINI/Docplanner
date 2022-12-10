@@ -4,7 +4,7 @@ import Select from './Select';
 
 function CardItem(props) {
     return (
-        <li className={classes.item} style={{ backgroundColor: `${props.color}` }} >
+        <li className={classes.item} style={{ backgroundColor: `${props.color}` }} onClick={() => props.handle(`${props.title}`)}>
             <Card>
                 <div>
                     <div className={classes.icon}>

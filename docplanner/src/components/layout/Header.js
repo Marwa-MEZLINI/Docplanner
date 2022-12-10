@@ -1,6 +1,8 @@
 import classes from './Header.module.scss'
 
-function Header() {
+function Header(props) {
+
+
     return (
         <header className={classes.header} >
             <div className={classes.logo} >
@@ -16,6 +18,11 @@ function Header() {
                     </li>
                     <li>
                         <a href="#" style={{ color: '#747474' }} >Departments</a>
+                    </li>
+                    <li>
+                        <a href='#' >
+                            {props.title}
+                        </a>
                     </li>
                 </ul>
             </nav>

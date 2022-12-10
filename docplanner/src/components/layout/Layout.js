@@ -2,9 +2,12 @@ import Footer from "./Footer";
 import Header from "./Header";
 
 function Layout(props) {
+
+   
+
     return (
         <div>
-            <Header />
+            <Header title={props.title} handle={props.handle} />
             <main>
                 {props.children}
             </main>
