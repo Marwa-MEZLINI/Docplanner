@@ -2,9 +2,17 @@ import classes from './CardItem.module.css'
 import Card from "./Card";
 import Select from './Select';
 
+import { useContext } from 'react';
+import ClickContext from '../context';
+
 function CardItem(props) {
+    const clickCtx = useContext(ClickContext)
+    console.log(clickCtx)
+
+
     return (
-        <li className={classes.item} style={{ backgroundColor: `${props.color}` }} onClick={() => props.handle(`${props.title}`)}>
+
+        <li className={classes.item} style={{ backgroundColor: `${props.color}` }} onClick={() => clickCtx.changeTitle(props.title)}>
             <Card>
                 <div>
                     <div className={classes.icon}>

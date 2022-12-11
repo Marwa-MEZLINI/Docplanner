@@ -7,26 +7,26 @@ import ServicesSection from "./components/sections/ServicesSection";
 import StatsSection from "./components/sections/StatsSection";
 
 import { useState } from 'react'
+import ClickContext from "./components/context";
+import { ClickContextProvider } from "./components/context";
 
 function App(props) {
-  const [title, setTitle] = useState('For you!')
 
-  function clickHandler(a) {
-    setTitle(a)
-  }
 
 
   return (
-    <Layout title={title}   >
+
+    <Layout>
 
       <LeadSection />
-      <ServicesSection title={title} handle={clickHandler}/>
+      <ServicesSection />
       <BrandsSection />
       <StatsSection />
       <OfficesSection />
       <JoinSection />
 
     </Layout>
+
   );
 }
 

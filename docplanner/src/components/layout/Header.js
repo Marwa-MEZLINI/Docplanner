@@ -1,7 +1,9 @@
+import { useContext } from 'react';
+import ClickContext from '../context';
 import classes from './Header.module.scss'
 
 function Header(props) {
-
+    const clickCtx = useContext(ClickContext)
 
     return (
         <header className={classes.header} >
@@ -21,7 +23,7 @@ function Header(props) {
                     </li>
                     <li>
                         <a href='#' >
-                            {props.title}
+                            {clickCtx.title}
                         </a>
                     </li>
                 </ul>
